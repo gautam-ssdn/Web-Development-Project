@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mardan Palace</title>
+<link rel="stylesheet" href="restaurant.css" type="text/css">
+<style>
+.heading
+{   font-family: lucida calligraphy;
+	text-align:center;
+	font-size:50px;
+    font-style: italic;
+    text-decoration:underline;
+	padding:10px;
+	padding-bottom: 30px;
+    background-color:rgba(255,0,0,0.4);
+	height:40px;
+    color: wheat;
+}
+#abcd{
+        font-size:45;
+    }
+ul {text-align: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:peru;
+}
+
+li {text-align: left;
+    float:left;
+   overflow: inherit;
+}
+
+li a {
+    display:inline-table;
+    color: blue;
+    text-align: left;
+    padding: 19px 16px;
+    text-decoration:overline;
+}
+
+li a:hover {
+    background-color: #767;
+}
+
+
+ul#nav{text-align: left;
+    list-style-type: none;
+    margin: 45;
+    padding:30;
+    width: 180px;
+    background-color:peru;
+}
+
+li a {text-align: left;
+    display:grid;
+    color: wheat;
+    padding: 8px 16px;
+    text-decoration:overline;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: firebrick;
+    color:WHITE;
+}
+.nav01
+{margin:0px auto;
+text-decoration-color: bisque;
+    font-size: 89px;
+}
+</style>
+</head>
+<body  background="contacy.jpeg" height="200%" width="500%" style="background-size:cover;">
+<div class="heading">
+Mardan Palace
+</div>
+<ul>
+  <li><a class="active" href="web.html">Home</a></li>
+	<li><a href="suite.html">Accomodations</a></li>
+  <li><a href="aboutus.html">About Us</a></li>
+  <li><a href="offer.html">Offers</a></li>
+</ul>
+ <div id="cmain">
+		<center><h1><font color="Wheat">CONTACT US</font></h1></center>
+		<div class="contactforum">
+			<form action="web.html" method="post">
+			<fieldset >
+				<legend >Personal information</legend>
+				<p>First name:<br>
+				<input  class="text" type="text" name="firstname" required /><br></p>
+				<p>Last name:<br>
+				<input class="text"  type="text" name="lastname" required /><br></p>
+				<p>Email Id:<br />
+				<input type="text" class="text" name="email" required /></p>
+				<p>Contact Number:<br>
+				<input class="text"  type="text" name="co_num" size=10 required /></p>
+				<p>Your Description about the website:<br> 
+				<textarea class="textarea" placeholder="Feedback..." rowspan="8" required></textarea></p>
+				<br>
+				<input  onclick="func()" type="submit" onclick="submit" class="submit" value="Submit" />
+			</fieldset>
+			</form>
+		</div>
+</div>
+     <center><div id="map" class="mappi" style=" width:600px;height:600px"><input onclick="myMap()" type="submit" value="Find us Here"/> </div></center>
+     <script>
+         function myMap() {
+    var mapOptions = {
+        center: new google.maps.LatLng(36.860234, 30.921061),
+        zoom: 30,
+        mapTypeId: google.maps.MapTypeId.HYBRID
+    }
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+}
+     function func(){
+     alert ("Your query has been registered, we will contact you shortly...");
+     }</script>
+     <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+</body>
+</html>

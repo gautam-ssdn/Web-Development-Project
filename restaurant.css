@@ -1,0 +1,227 @@
+.para{
+    color:white;
+}
+.Header
+{  
+	text-align:center;
+	font-size:50px;
+	padding:10px;
+	padding-bottom: 30px;
+	height:40px;
+	color:wheat;
+	font-weight: bold;
+}
+.module1
+{
+  background-color:lavender;
+	width: 200px;
+	height:500px;
+}
+a
+{
+	text-decoration: none;
+	color:red;
+}
+.category
+{
+	width:20%;
+	border:1px solid black;
+	margin-left: 1050px;
+	margin-top:-500px;
+}
+ul
+{
+	list-style-type: none;
+	color:brown;	
+}
+.available
+{
+	width:50%;
+	margin-left:400px;
+	margin-top: -175px;
+	font-size: 20px;
+}
+.available ul,
+{
+	width:200px;
+	margin-left:-35px;
+}
+.discussion
+{
+	margin-left:400px;
+	font-size:30px;
+}
+.discussion input[type=text]
+{
+	width:40%;
+	font-size:30px;
+}
+.data1
+{
+	color:darkgrey;
+	font-size:20px;
+	width:30%;
+  padding-left:30px;
+	margin-left: 350px;
+  margin-top: -160px;
+}
+.restaurantdata
+{
+	color:darkslateblue;
+	font-size:20px;
+	width:30%;
+  padding-left:30px;
+	margin-left: 350px;
+  margin-top: -10px;
+}
+div.image
+{
+	width:1000px;
+	height: 100px;
+	margin:100px 300px;
+}
+div.image img
+{
+  width:400px;
+	height: 200px;
+	padding:10px;
+	float:left;
+}
+.Head
+{
+	text-align:center;
+	font-size:50px;
+	padding:10px;
+	padding-bottom: 30px;
+	background-color:darkred;
+	height:40px;
+	color:greenyellow;
+	font-weight: bold;
+}
+
+.footer
+{
+font-size:20px;
+	color:aliceblue;
+	float:right;
+	margin-top:175px; 
+	background-color:darkolivegreen; 
+	height:50px;
+}
+#cmain .contactforum
+{   width: 50%;
+    float: left;
+    font-family: cursive;
+    font-weight: 800;
+    border: solid 5px;
+    border-color: wheat;
+    color: white;
+    text-decoration-style: double;
+    font-size:20px;
+}
+#cmain .contactforum input.text
+{
+	background-color:wheat;
+	border-radius:10px; 
+	color:brown;
+	opacity: 100%;
+	font-size:15px;
+	padding-left:10px;
+	width:70%;
+	float:bottom;
+  
+	border:5px solid;
+  }
+
+
+
+
+
+
+
+#user_reviews h1
+{
+  text-align:center;
+  font-size:50px;
+  color:violet;
+}
+#user_details
+{
+  float:right;
+  margin:50px;
+  width:60%;
+  border:5px solid lightsteelblue;
+  border-radius:20px;
+  
+}
+#user_details #user_img img
+{
+  width:5%;
+  float:left;
+}
+#user_details #user_name
+{
+  font-family:Tahoma ;
+  font-weight: bold;
+  color:gray;
+  padding:10px;
+}
+#user_details #prod_name
+{
+  padding-left:10%;
+  color:blueviolet;
+  font-size: 20px;
+}
+#user_details #user_typed 
+{
+  padding-top:20px;
+  padding-left:80px;
+  font-size: 30px;
+}
+#user_rating img
+{
+  float:left;
+  padding-left:50px;
+  width:15%;
+}
+#post_reviews 
+{
+  width: 60%;
+  float:right;
+}
+#post_reviews h3
+{
+  color:brown;
+  background-color: yellowgreen;
+  width:65%;
+  font-size: 30px;
+  word-spacing: 1cm;
+  text-transform: uppercase;
+  padding:20px;
+}
+#post_reviews h4
+{
+  color:brown;
+  font-size: 20px;
+  word-spacing: 5px;
+}
+#post_reviews textarea
+{
+  width:400px;
+}
+#post_reviews input[type=button]
+{
+  background-color: greenyellow;
+  color:blue;
+  font-weight: bold;
+  font-family:Tahoma;
+  padding:10px;
+  margin-left:80px;
+}
+#post_reviews input[type=button]:hover
+{
+  background-color: blue;
+  color:white;
+  cursor: pointer;
+}
+

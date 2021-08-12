@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Secured Booking</title>
+<style>
+.heading
+{
+	text-align:left;
+	font-size:71px;
+	padding:10px;
+    	font-family: Modern No. 20;
+	padding-bottom: 30px;
+	height:100px;
+	color:gold;
+	background: linear-gradient(rgba(00,00,00,0),rgba(00,00,00,0));
+}
+body 
+{
+	background-image: url("welcome.jpg");
+	background-repeat: no-repeat;
+	 background-size:cover;
+}
+</style>
+</head>
+<body>
+<script>
+function myfunc()
+{
+window.alert('Booking Done.  Looking forward to serve you.. Thankyou...')
+}
+</script>
+
+<div class="heading">The Mardan Palace</div>
+</div>
+<table border="2px" align="left" cellspacing="10px" cellpadding="10px" style="margin-left:180px; margin-top:20px;">
+	<tr><td><b>First Name</b></td><td><input type="text" name="fn"></td></tr>
+	<tr><td><b>Last Name</b></td><td><input type="text" name="ln"></td></tr>
+	<tr><td><b>Unique ID</b></td><td><input type="password" name="pw"></td></tr>
+	<tr><td><b>Address</b></td><td><textarea rows="5" cols="20"></textarea></td></tr>
+	<tr><td><b>Check-In</b></td><td><input type="date" name="cn"></td></tr>
+	<tr><td><b>Check-Out</b></td><td><input type="date" name="co"></td></tr>
+</table>
+<button type="button" onclick="myfunc()">Book Now</button>
+</body>
+</html>
